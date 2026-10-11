@@ -1,20 +1,20 @@
 class Amt < Formula
   desc "Ametrite: local-first issue tracking + markdown knowledge base for AI agent workflows"
   homepage "https://github.com/Davidb3l/Ametrite"
-  version "0.4.0"
+  version "0.4.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Davidb3l/Ametrite/releases/download/v0.4.0/amt-aarch64-apple-darwin.tar.xz"
-      sha256 "658db3926fb5ddb215ba25b476a5a857ae99f4856cad45e008a10dbad9c8e407"
+      url "https://github.com/Davidb3l/Ametrite/releases/download/v0.4.1/amt-aarch64-apple-darwin.tar.xz"
+      sha256 "42d8e15545fd991f1a4b7c05fb7b6d5bd5863e89bd4394a46537ebbb01e68585"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Davidb3l/Ametrite/releases/download/v0.4.0/amt-x86_64-apple-darwin.tar.xz"
-      sha256 "3e1357927674564749e0d7d6e77a70e412242331f115d3bbe2a671bf4d5de076"
+      url "https://github.com/Davidb3l/Ametrite/releases/download/v0.4.1/amt-x86_64-apple-darwin.tar.xz"
+      sha256 "a3acd3f545f21d3e8cf59b14a1466ce2ee7b2070787ac68760ea99bbc448997d"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/Davidb3l/Ametrite/releases/download/v0.4.0/amt-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "fab756248091c78206433c56ef752d84c8171448fb8b506fdf96a4f74c8b40d0"
+    url "https://github.com/Davidb3l/Ametrite/releases/download/v0.4.1/amt-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "b76505a9eb4ddb19270700cfba3771afe0aa31ab9323f1ebe218a0e0113db9f4"
   end
   license "MIT"
 
